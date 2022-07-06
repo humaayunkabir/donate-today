@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1540px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #707070;
+}
+
+.slider {
+    background-image: url("/image/donation13.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider .overlay {
+    margin: 0 auto;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    background-image: linear-gradient(#ffffff00, #000000d1);
+}
+
+.slider .content {
+    text-align: center;
+}
+
+.slider .content h1 {
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0 auto;
+    color: #fff;
+    max-width: 800px;
+}
+
+.slider .content p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    max-width: 600px;
+    margin: 40px auto 30px;
+}
+
+.button {
+    background: #FF5959;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 23px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+
+/*---------- donate-today-section ---------*/
+.donate-today {
+    padding: 130px 0px;
+}
+
+.donate-today h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #3d3d3d;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.donate-today .content {
+    text-align: center;
+}
+
+.donate-today .row {
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.donate-today input {
+    width: 100%;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 30px;
+}
+
+.donate-today input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #DADADA;
+}
+
+.donate-today p {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.donate-today strong {
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.donate-today .amount {
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    background: #FAFAFA;
+    margin-right: 20px;
+}
+
+.donate-today .amount:last-child {
+    margin-right: 0;
+}
+
+
+
+
+/*---------- our-donate-plan -----------*/
+.our-donate-plan {
+    padding-bottom: 130px;
+}
+
+.our-donate-plan .content {
+    width: 30%;
+    margin-right: 5%;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.our-donate-plan .content:last-child {
+    margin-right: 0;
+}
+
+.our-donate-plan .food {
+    background: #4f9da633;
+}
+
+.our-donate-plan .family {
+    background: #ff59595b;
+}
+
+.our-donate-plan .education {
+    background: #ffd08f9e;
+}
+
+.our-donate-plan .main-column {
+    text-align: center;
+}
+
+.our-donate-plan .main-column h2 {
+    margin: 0;
+    font-size: 45px;
+    line-height: 49px;
+    font-weight: 700;
+}
+
+.our-donate-plan .content h2 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.our-donate-plan .main-column #custom {
+    margin: 0;
+    max-width: 600px;
+    margin: 25px auto 50px;
+}
+
+.our-donate-plan .all-content {
+    padding: 60px 20px;
+}
+
+.our-donate-plan .all-content p {
+    line-height: 26px;
+}
+
+
+
+
+/*---------- get-my-updates ------------*/
+.get-my-updates {
+    padding: 130px 0px;
+}
+
+.get-my-updates .content {
+    text-align: center;
+}
+
+.get-my-updates h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.get-my-updates p {
+    max-width: 600px;
+    margin: 25px auto 45px;
+}
+
+.get-my-updates .email {
+    padding: 70px 20px;
+    background: #FFF4D6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.get-my-updates .email input {
+    border: none;
+    background: #D9D9D9;
+    padding: 10px 20px;
+}
+
+.get-my-updates .email input:focus {
+    border: none;
+    outline: none;
+
+}
