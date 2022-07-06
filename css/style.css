@@ -208,6 +208,77 @@ p {
 
 
 
+/*-------- gallery ---------*/
+.gallery h2 {
+    margin: 0;
+    font-size: 45px;
+    line-height: 49px;
+    font-weight: 700;
+    color: #3d3d3d;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.gallery p {
+    max-width: 500px;
+    margin: 25px auto 50px;
+    text-align: center;
+}
+
+.gallery .content {
+    width: 22%;
+    margin-right: 4%;
+    position: relative;
+}
+
+.gallery .content:last-child {
+    margin-right: 0;
+}
+
+.gallery .content img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.gallery .content .text {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    background: #3d3d3d;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: .4s;
+}
+
+.gallery .content:hover .text {
+    opacity: 1;
+}
+
+.gallery .content .text p {
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.gallery .content .text h3 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
 
 /*---------- get-my-updates ------------*/
 .get-my-updates {
