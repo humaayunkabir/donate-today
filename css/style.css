@@ -180,6 +180,7 @@ p {
     font-size: 45px;
     line-height: 49px;
     font-weight: 700;
+    color: #3d3d3d;
 }
 
 .our-donate-plan .content h2 {
@@ -221,6 +222,7 @@ p {
     font-size: 45px;
     font-weight: 700;
     margin: 0;
+    color: #3d3d3d;
 }
 
 .get-my-updates p {
@@ -273,3 +275,27 @@ p {
 
 
 /*---------- footer ------------*/
+footer {
+    padding: 50px 0px;
+    background: ;
+    background: #3d3d3d;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    color: #FF5959;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: .4s;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
